@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #eee;
+}
+
+nav a.active{
+  border-bottom: 5px solid #333;
+  transition: all ease 0.5s;
+}
+
+.container{
+  margin-top: 20px;
+}
+.home h4{
+  color: grey;
+  font-weight: bold;
+  font-size: 45px;
+}
+.home .post img{
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  opacity: 0.6;
+  width: 80px;
+}
+
+.home .post{
+  overflow: hidden;
+  padding-left: 80px;
+}
+.post h4{
+  font-weight: bold;
+  font-size: 45px;
+
+}
+.post h3{
+  text-decoration: underline;
+  font-weight:bold;
+  font-size:25px;
+  color:grey;
+}
+.post p{
+  background-color: white;
+  border-width: 5px;
+  border-color:black;
+}
+.post .recs{
+  font-weight:bold;
+  word-spacing:3px;
+}
